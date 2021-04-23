@@ -1,7 +1,6 @@
 package br.com.zup.autores
 
 import io.micronaut.http.HttpResponse
-import io.micronaut.http.annotation.Body
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.PathVariable
 import io.micronaut.http.annotation.Put

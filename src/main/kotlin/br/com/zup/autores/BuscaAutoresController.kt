@@ -7,7 +7,7 @@ import io.micronaut.http.annotation.QueryValue
 import javax.transaction.Transactional
 
 @Controller(value = "/autores")
-class BuscaAutorController(val autorRepository: AutorRepository) {
+class BuscaAutoresController(val autorRepository: AutorRepository) {
 
     @Get
     @Transactional
